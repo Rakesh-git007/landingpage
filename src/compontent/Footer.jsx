@@ -17,7 +17,7 @@ const Footer = () => {
 
 
       <div className='flex justify-center relative mt-30'>
-        <input className='md:block hidden border-1 border-black h-12 outline-none   w-[300px]  md:w-lg rounded-2xl ps-5  bg-white-950 text-black hover:shadow-2xl  absolute  transform -translate-y-7 translate-x-3' type='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email@gmail' required />
+        <input className=' border-1 border-black h-12 outline-none   w-[300px]  md:w-lg rounded-2xl ps-5  bg-white-950 text-black hover:shadow-2xl  absolute  transform -translate-y-7 translate-x-3' type='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email@gmail' required />
         <button className='mt-10 bg-orange-400 font-bold text-white px-4 py-1 rounded-full absolute transform -translate-y-10 translate-x-10  hover:bg-orange-500 cursor-pointer' onClick={click}>Submit</button>
 
       </div>
