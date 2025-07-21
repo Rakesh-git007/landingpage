@@ -28,8 +28,8 @@ const Contact = () => {
     <>
       <div className='container mx-auto mt-20 flex-row md:flex '>
         <div className='flex-col justify-center '>
-          <h1 className="text-4xl font-bold mb-4 text-orange-600 text-center">Contact Us</h1>
-          <p className="text-md md:text-2xl mb-6 max-w-md md:max-w-2xl text-gray-500 animate-pulse mt-10  md:ms-0 ms-12">
+          <h1 className="text-4xl font-bold mb-4 text-orange-600 text-center">Contact </h1>
+          <p className="text-md md:text-2xl mb-6 max-w-md md:max-w-2xl text-gray-500 animate-pulse mt-10  md:ms-0 ms-2">
             We’d love to hear from you! Whether you have questions about our courses, need help choosing the right learning path, or just want to say hello — our team is here to help.
           </p>
 
@@ -47,7 +47,7 @@ const Contact = () => {
 
         </div>
 
-        <div className='bg-white-900 md:min-h-50 min-h-40 md:w-[600px] w-[400px] md:ms-20 ms-15 border-2 border-dashed flex-col  shadow-2xl hover:shadow-amber-400 '>
+        <div className='bg-white-900 md:min-h-50 min-h-40 md:w-[600px] mt-10 md:mt-0 md:ms-20 m-5 border-2 border-dashed flex-col  shadow-2xl hover:shadow-amber-400 '>
           <div className='justify-center  mt-5'>
             <h1 className='text-2xl text-orange-400 font-bold text-center'>Send Querys</h1>
 

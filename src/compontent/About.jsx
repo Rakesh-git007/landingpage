@@ -15,10 +15,10 @@ const About = () => {
 
         <div className='container mx-auto mt-10'>
           <div className='text-center'>
-            <h1 className='font-bold text-2xl text-orange-400'>🎯Our Mission is Improve the Low Students</h1>
+            <h1 className='font-bold md:text-2xl text-orange-400'>🎯Our Mission is Improve the Low Students</h1>
           </div>
 
-          <div className='md:h-45    bg-white-900 border shadow-2xl rounded-bl-4xl rounded-tr-4xl  md:w-2xl w-[450px] mt-10 md:flex hover:shadow-orange-400'>
+          <div className='md:h-45    bg-white-900 border shadow-2xl rounded-bl-4xl rounded-tr-4xl  md:w-2xl  mt-10 md:flex hover:shadow-orange-400'>
             <img className='h-35 mx-10 my-5 rounded-4xl shadow-2xl '  src={Company}/>
             <p className='md:mt-12 md:font-mono mt-10 font-mono md:p-0 p-3'> We aim to make quality education accessible to everyone by providing affordable, expert-led courses in web development, design, marketing, and more.</p>
           </div>
@@ -33,14 +33,14 @@ const About = () => {
            
            
             <div className='container mx-auto grid md:grid-cols-2  grid-cols-1 place-items-center items-center mt-5'>
-           <ul className="list-disc list-inside  md:space-y-2  space-y-3  font-bold ms-5 text-lg ">
+           <ul className="list-disc list-inside  md:space-y-2 font-bold ms-5 text-lg  ">
            <li>Industry-relevant curriculum</li>
            <li>Experienced instructors</li>
            <li>Lifetime access to course materials</li>
            <li>Free certifications</li>
            <li>100K+ learners worldwide</li>
          </ul>
-            <div className='md:mt-0 md:mb-0  mt-10 mb-10'>
+            <div className='md:mt-0 md:mb-0 md:p-0  m-5  mt-10 mb-10'>
               <img src={image5} className='h-50  rounded-2xl'/>
             </div>
          
@@ -54,11 +54,11 @@ const About = () => {
             <div className='md:h-70 bg-white-950  shadow-2xl  hover:shadow-orange-400 border  rounded-tl-4xl rounded-br-4xl  mt-30 text-center'>
               <h2 className='font-bold text-2xl text-orange-400 mt-5'>🧭 Our Path Forward</h2>
                <div className=' text-justify  ms-4 md:flex md:gap-3 justify-around items-center'>
-             <p className='text-md font-serif md:w-1/2 p-6 md:p-0'>As we look to the future, our focus remains on empowering learners through innovation, accessibility,
+             <p className='text-md font-serif md:w-1/2 p-6 md:p-0 '>As we look to the future, our focus remains on empowering learners through innovation, accessibility,
             and quality. We're expanding our course offerings, collaborating with industry experts, and building
             new features to make learning more engaging and career-focused.</p>
 
-            <img src={image6} className='h-50 mb-5 md:ms-0  ms-20'/>
+            <img src={image6} className='h-50 mb-5 '/>
             </div>
             </div>
             
