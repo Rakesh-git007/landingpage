@@ -5,21 +5,21 @@ import image6 from '../assets/Branding.jpg'
 const About = () => {
   return (
     <>
-    <div className='min-h-screen bg-white text-gray-800 py-6 px-15 mt-20 '> 
+    <div className='min-h-screen bg-white text-gray-800 py-6 px-15  md:mt-10'> 
       <div className='container mx-auto '>
         <div>
-          <h1 className='text-2xl text-orange-400 font-bold hover:tracking-wider '>About us</h1>
-           <p className="text-lg mb-6">Welcome to <span className='animate-pulse font-bold'>SkillBoost</span> — your trusted platform to learn, grow, and upskill with practical online courses!</p>
+          <h1 className='text-2xl text-orange-400 font-bold text-center mb-10 '>About us</h1>
+           <p className="md:text-lg mb-6 leading-6 md:text-center">Welcome to <span className='animate-pulse font-bold'>SkillBoost</span> — your trusted platform to learn, grow, and upskill with practical online courses!</p>
         </div>
         </div>
 
-        <div className='container mx-auto mt-10'>
+        <div className='container mx-auto mt-8'>
           <div className='text-center'>
             <h1 className='font-bold md:text-2xl text-orange-400'>🎯Our Mission is Improve the Low Students</h1>
           </div>
 
           <div className='md:h-45    bg-white-900 border shadow-2xl rounded-bl-4xl rounded-tr-4xl  md:w-2xl  mt-10 md:flex hover:shadow-orange-400'>
-            <img className='h-35 mx-10 my-5 rounded-4xl shadow-2xl '  src={Company}/>
+            <img className='h-35 mx-10 my-5 rounded-4xl shadow-2xl object-cover transform transition duration-200 hover:scale-110 '  src={Company}/>
             <p className='md:mt-12 md:font-mono mt-10 font-mono md:p-0 p-3'> We aim to make quality education accessible to everyone by providing affordable, expert-led courses in web development, design, marketing, and more.</p>
           </div>
 
@@ -40,8 +40,8 @@ const About = () => {
            <li>Free certifications</li>
            <li>100K+ learners worldwide</li>
          </ul>
-            <div className='md:mt-0 md:mb-0 md:p-0  m-5  mt-10 mb-10'>
-              <img src={image5} className='h-50  rounded-2xl'/>
+            <div className='md:mt-0 md:mb-0 md:p-0  m-5  mt-10 mb-10 overflow-hidden'>
+              <img src={image5} className='h-50  rounded-2xl object-cover transfrom transition duration-300 hover:scale-90'/>
             </div>
          
             </div>
@@ -58,7 +58,7 @@ const About = () => {
             and quality. We're expanding our course offerings, collaborating with industry experts, and building
             new features to make learning more engaging and career-focused.</p>
 
-            <img src={image6} className='h-50 mb-5 '/>
+            <img src={image6} className='h-50 mb-5 object-center transform transition duration-200 hover:scale-90'/>
             </div>
             </div>
             

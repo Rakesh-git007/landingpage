@@ -15,16 +15,16 @@ const Pricing = () => {
 
       <div className='container mx-auto flex flex-col gap-10  items-center     md:flex  md:flex-row    md:gap-20   md:justify-center md:mt-20 mt-10'>
 
-        <div className='bg-white-900 h-80 w-80 border-4 border-dashed border-back rounded-2xl  shadow-2xl text-center relative'>
+        <div className='bg-white-900 h-80 w-80 border-4 border-dashed border-back rounded-2xl   text-center relative  shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 cursor-pointer'>
           <h1 className='mt-5 text-2xl text-blue-600 font-extrabold'>$10</h1>
-          <h1 className='font-bold tracking-wide'>Basic</h1>
+          <h1 className='font-bold text-2xl tracking-wide'>Basic</h1>
           <p className='font-bold text-orange-400 tracking-wide'>This package includes </p>
-          <ul>
-            <li className='flex items-center ms-3 mt-5 leading-8'>
+          <ul className=''>
+            <li className='flex text-center ms-3 mt-5 leading-8'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Html
@@ -34,8 +34,8 @@ const Pricing = () => {
              <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Css
@@ -44,8 +44,8 @@ const Pricing = () => {
             <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Java script-Basic
@@ -55,8 +55,8 @@ const Pricing = () => {
             <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 React.js-Basic
@@ -67,8 +67,8 @@ const Pricing = () => {
             <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Tailwind-Basic
@@ -81,17 +81,17 @@ const Pricing = () => {
 
         {/* second div */}
 
-        <div className='bg-white-900 h-80 w-80 border-4 border-dashed border-red-600 rounded-2xl shadow-2xl text-center relative'>
+        <div className='bg-white-900 h-80 w-80 border-4 border-dashed border-red-600 rounded-2xl  text-center relative  shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 cursor-pointer'>
 
             <h1 className='mt-5 text-2xl text-blue-600 font-extrabold'>$99</h1>
-          <h1 className='font-bold tracking-wide'>Advance-Level</h1>
+          <h1 className='font-bold text-2xl tracking-wide'>Advance-Level</h1>
           <p className='font-bold text-orange-400 tracking-wide'>This package includes </p>
           <ul>
             <li className='flex items-center ms-3 mt-5 leading-8'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 React.js-Advance level
@@ -101,8 +101,8 @@ const Pricing = () => {
              <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Tailwindcss-Advance level
@@ -111,8 +111,8 @@ const Pricing = () => {
             <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Javascript & Api
@@ -122,8 +122,8 @@ const Pricing = () => {
             <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Front-end Responive
@@ -134,8 +134,8 @@ const Pricing = () => {
             <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Tailwind-Basic
@@ -148,17 +148,17 @@ const Pricing = () => {
 
         {/* third-div */}
 
-        <div className='bg-white-900 h-80 w-80 border-4 border-dashed border-black-600 rounded-2xl shadow-2xl text-center relative'>
+        <div className='bg-white-900 h-80 w-80 border-4 border-dashed border-black-600 rounded-2xl  text-center relative   shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 cursor-pointer'>
 
             <h1 className='mt-5 text-2xl text-blue-600 font-extrabold'>$50</h1>
-          <h1 className='font-bold tracking-wide'>intermidate</h1>
+          <h1 className='font-bold text-2xl tracking-wide'>Intermidate</h1>
           <p className='font-bold text-orange-400 tracking-wide'>This package includes </p>
           <ul>
             <li className='flex items-center ms-3 mt-5 leading-8'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 React.js-cover
@@ -168,8 +168,8 @@ const Pricing = () => {
              <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Javascript-cover
@@ -178,8 +178,8 @@ const Pricing = () => {
             <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Tailwindcss-cover
@@ -189,8 +189,8 @@ const Pricing = () => {
             <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Front-end
@@ -201,8 +201,8 @@ const Pricing = () => {
             <li className='flex items-center ms-3 leading-7'>
                
               <div><svg  className='h-6 w-4 text-blue-500'  viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#292D32"strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg></div>
               <div className='font-bold ms-1.5'>
                 Tailwind-Basic

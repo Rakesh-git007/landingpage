@@ -8,6 +8,7 @@ import Footer from "./compontent/Footer"
 import Signpage from "./compontent/Signpage"
  
  
+ 
  const App = () => {
    
    return (
@@ -20,6 +21,7 @@ import Signpage from "./compontent/Signpage"
       <Route path="About" element={<About/>}/>
       <Route path="Contact" element={<Contact/>}/>
       <Route path="Signup" element={<Signpage/>}/>
+     
 
 
       </Routes>

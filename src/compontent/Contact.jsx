@@ -29,7 +29,7 @@ const Contact = () => {
       <div className='container mx-auto mt-20 flex-row md:flex '>
         <div className='flex-col justify-center '>
           <h1 className="text-4xl font-bold mb-4 text-orange-600 text-center">Contact </h1>
-          <p className="text-md md:text-2xl mb-6 max-w-md md:max-w-2xl text-gray-500 animate-pulse mt-10  md:ms-0 ms-2">
+          <p className="text-md md:text-2xl mb-6 max-w-md md:max-w-2xl text-gray-600 font-bold mt-10  md:ms-0 ms-2">
             We’d love to hear from you! Whether you have questions about our courses, need help choosing the right learning path, or just want to say hello — our team is here to help.
           </p>
 
@@ -43,7 +43,7 @@ const Contact = () => {
             Need help fast? Browse our FAQ or send us a message using the form below.  
             <span className='ms-2'>We typically respond within 24 hours.</span> 
           </p>
-          <h2 className="text-2xl text-orange-400 mt-10 text-center font-bold animate-bounce">Send us a message</h2>
+          <h2 className="text-2xl text-orange-400 mt-10 text-center font-bold ">Send us a message</h2>
 
         </div>
 

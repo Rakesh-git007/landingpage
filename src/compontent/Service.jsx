@@ -18,47 +18,58 @@ const Service = () => {
         <button className='mt-10 bg-orange-400 text-white px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer'>Get Start</button>
       </div>
       <div className='md:w-1/2 '>
-        <img className='h-[450px] md:w-[400px] w-full mx-auto md:mt-5 mt-10' src={service}/>
+        <img className='h-[450px] md:w-[400px] w-full mx-auto md:mt-5 mt-10  transfrom transition duration-300 hover:scale-110' src={service}/>
       </div>
      </div>
      
      {/* main section */}
 
-     <div className='mt-12'>
+     <div className='mt-12 '>
         <h1 className=' text-center text-3xl font-bold '>We Provide The Best <span className='text-orange-400'>Service</span> </h1>
       </div>
 
-     <div className='container mx-auto mt-12 md:flex md:gap-1.5 sm:flex space-y-10  ' >
+     <div className='container mx-auto mt-12 md:flex md:gap-1.5    space-y-10' >
        
-      <div className='md:w-1/4  text-center flex flex-col items-center bg-white shadow-2xl '>
+      <div className='md:w-1/4  text-center flex flex-col items-center bg-white   overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 cursor-pointer'>
         <h1 className='text-2xl font-semibold'>Javascript Development</h1>
-        <img className='h-40 w-40' src={image1}/>
-        <p className='text-sm leading-6 md:w-[300px] md:p-0 p-2' >JavaScript is a versatile, high-level programming language primarily used to create interactive and dynamic web applications. It is an essential part of web development, working seamlessly with HTML (for structure) and CSS (for styling). Here a quick overview:</p>
+        <img className='h-40 w-40 ' src={image1}/>
+        <p className='text-sm leading-6 md:w-[300px] md:p-0 p-2 line-clamp-5 text-justify' >
+          JavaScript is a versatile, high-level programming language primarily used to create interactive and dynamic web applications. It is an essential part of web development,
+           working seamlessly with HTML (for structure) and CSS (for styling). Here a quick overview:
+           </p>
       </div>
 
-      <div className='md:w-1/4 text-center flex flex-col items-center  bg-white shadow-2xl'>
+      <div className='md:w-1/4 text-center flex flex-col items-center  bg-white  overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 cursor-pointer'>
         <h1 className='text-2xl font-semibold'>Reactjs Development</h1>
         <img className='h-40 w-40' src={image2}/>
-        <p className='text-sm leading-6 md:w-[300px] md:p-0 p-2'>React is a JavaScript library primarily used for building dynamic and interactive user interfaces (UIs). While it is not specifically designed for data science, it can play a significant role in creating data-driven web applications and dashboards.</p>
+        <p className='text-sm leading-6 md:w-[300px] md:p-0 p-2 line-clamp-5 text-justify'>React is a JavaScript library primarily used for building dynamic and interactive user interfaces (UIs). 
+          While it is not specifically designed for data science, it can play a significant role in creating data-driven web applications and dashboards.
+          </p>
       </div>
 
-         <div className='md:w-1/4 text-center flex flex-col items-center  bg-white shadow-2xl'>
+         <div className='md:w-1/4 text-center flex flex-col items-center  bg-white overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 cursor-pointer'>
         <h1 className='text-2xl font-semibold'>Tailwindcss Development</h1>
         <img className='h-40 w-40' src={image4}/>
-        <p className='text-sm leading-6 md:w-[300px] md:p-0 p-2'> Tailwind CSS is a utility-first CSS framework designed to simplify web development by providing pre-defined utility classes. These classes allow developers to style elements directly in HTML without writing custom CSS, making the process faster and more efficient.</p>
+        <p className='text-sm leading-6 md:w-[300px] md:p-0 p-2 line-clamp-5 text-justify'> Tailwind CSS is a utility-first CSS framework designed to simplify web development by providing pre-defined utility classes. 
+          These classes allow developers to style elements directly in HTML without writing custom CSS, making the process faster and more efficient.
+          </p>
       </div>
 
-      <div className='md:w-1/4 text-center h-[340px] flex flex-col items-center border-2 border-dashed bg-white shadow-2xl'>
+      <div className='md:w-1/4 text-center h-[320px] flex flex-col items-center  bg-white overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 cursor-pointer'>
         <h1 className='text-2xl font-semibold'>Front-end Full Courses</h1>
         <img className='h-40 w-40' src={image3}/>
         <p className='text-sm leading-6 md:w-[300px] md:p-0 p-2 line-clamp-5 text-justify'>
           Front-end development focuses on creating the user interface (UI) and user experience (UX) of websites and web applications. It involves designing and implementing the visual aspects that users interact with directly, 
-          such as layouts, buttons, menus, text, images, and videos</p>
+          such as layouts, buttons, menus, text, images, and videos
+          </p>
+      </div>
       </div>
 
        
 
-     </div>
+       
+
+     
      <Pricing/>
      <About/>
      </>
