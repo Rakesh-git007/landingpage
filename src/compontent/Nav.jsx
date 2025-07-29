@@ -35,7 +35,7 @@ const [isOpen,setIsOpen]=useState(false)
        
       <div className='md:hidden'>
          <ul className=' flex flex-col items-center space-y-6'>
-            <li><Link to='/' className=' font-bold'>Service</Link></li>
+            <li><Link to='/' className=' font-bold'>Se</Link></li>
             <li><Link to='/Pricing' className='font-bold hover:text-orange-600'>Pricing</Link></li>
             <li><Link to='/About' className='font-bold  hover:text-orange-600'>About</Link></li>
             <li><Link to='/Contact' className='font-bold  hover:text-orange-600'>Contact</Link></li>
